@@ -1,0 +1,11 @@
+tasks:
+  - name: Install & Start
+    init: npm install
+    command: npm run dev
+
+ports:
+  - port: 5173
+    onOpen: open-preview
+
+
+
